@@ -2,7 +2,7 @@
 # Гайворонський
 # Сальников
 
-##Для запуска проекта потрібно встановити nvm(Windows: https://github.com/coreybutler/nvm-windows)
+## Для запуска проекта потрібно встановити nvm(Windows: https://github.com/coreybutler/nvm-windows)
 
 ### Як встановити проект:
 - Перед тим як все це зробити треба в терміналі `nvm install 16` потім `nvm use 16`
