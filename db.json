@@ -1,0 +1,91 @@
+{
+  "gallery": [
+    {
+      "title": "BMW E34 Red Sport Car 500hp",
+      "author": "Kirill",
+      "photo": "http://localhost:5000/upload/bmw_e34_krasnyj_avto_vid_sboku_sportkar_96487_1920x1080.jpg",
+      "id": "371ddaaf-5e6b-44e0-811d-c4f6d90bcfa8",
+      "tags": [
+        "BMW M3",
+        "SportCar"
+      ],
+      "statistic": {
+        "favorites": 5,
+        "downloads": 2,
+        "like": 0,
+        "likes": 7
+      }
+    },
+    {
+      "title": "Road to the dream",
+      "author": "Kirill",
+      "photo": "http://localhost:5000/upload/trollejbus_ostanovka_gorod_vecher_osveshchenie_119292_1920x1080.jpg",
+      "id": "3354d5a6-feea-4cd2-a875-915b7d04d375",
+      "tags": [
+        "Beatiful"
+      ],
+      "statistic": {
+        "favorites": 0,
+        "downloads": 0,
+        "like": 0,
+        "likes": 1
+      }
+    },
+    {
+      "title": "hoodwink",
+      "author": "Kirill",
+      "photo": "http://localhost:5000/upload/hoodwink-dota-2-4k-wallpaper-uhdpaper.com-742@1@f.jpg",
+      "id": "1d27a2f9-7c9f-4851-8dcf-23d62fc833a0",
+      "tags": [
+        "dota2",
+        "dotaheroes",
+        "squirrel"
+      ],
+      "statistic": {
+        "favorites": 0,
+        "downloads": 0,
+        "likes": 0
+      }
+    }
+  ],
+  "users": [
+    {
+      "email": "vm@mail.ru",
+      "password": "$2a$05$ih4KZP8YLBQqUzWkF.OsvOMeNpkWauconcp3XO6tVnX9bsSOVRABK",
+      "username": "Kirill",
+      "id": "9edf0ec7-6abb-4996-ad02-75203ac821ae",
+      "favorites": [
+        "371ddaaf-5e6b-44e0-811d-c4f6d90bcfa8"
+      ],
+      "posts": [
+        "371ddaaf-5e6b-44e0-811d-c4f6d90bcfa8",
+        "3354d5a6-feea-4cd2-a875-915b7d04d375",
+        "1d27a2f9-7c9f-4851-8dcf-23d62fc833a0"
+      ],
+      "liked": []
+    },
+    {
+      "email": "k@gmail.com",
+      "password": "$2a$05$BDtJuhUdBFH/rA1pEJMPs.aUm/N42xvKzCKX6r2RoLdDSKsKPA5IS",
+      "username": "BMWDro4er",
+      "id": "4e801bd4-4860-4b19-9020-2444a83769fc",
+      "favorites": [],
+      "posts": [
+        "fc463943-6ca8-4f06-aded-8aaa74a51dfc"
+      ],
+      "liked": [
+        "3354d5a6-feea-4cd2-a875-915b7d04d375",
+        "fc463943-6ca8-4f06-aded-8aaa74a51dfc"
+      ]
+    },
+    {
+      "email": "qwe@gmail.ru",
+      "password": "$2a$05$5WHBeXR9pHa1N3TqF9j.YulmnVb8kyNN3P70dnVRKWi1oTG5XHXXe",
+      "username": "paltinik",
+      "id": "b9ec26eb-27a6-4298-b73f-476868e74272",
+      "favorites": [],
+      "posts": [],
+      "liked": []
+    }
+  ]
+}

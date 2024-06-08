@@ -1,0 +1,45 @@
+{
+  "name": "gallery-backend",
+  "version": "2.1.0",
+  "description": "It backend for service uploading photos",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "server": "nodemon app",
+    "mock": "json-server -w db.json -p 5500",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server \" \"npm run client\" \"npm run mock\""
+  },
+  "keywords": [
+    "js",
+    "nodejs",
+    "expressjs"
+  ],
+  "author": "Me",
+  "license": "ISC",
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.1",
+    "@splidejs/react-splide": "^0.7.12",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "config": "^3.3.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-validator": "^6.9.0",
+    "gmail-send": "^1.8.10",
+    "json-server": "^0.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mime": "^2.4.7",
+    "multer": "^1.4.2",
+    "node-fetch": "^2.6.1",
+    "nodemailer": "^6.4.17",
+    "react-redux": "^8.0.5",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/materialize-css": "^1.0.11",
+    "@types/react-lazy-load-image-component": "^1.5.1",
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.6"
+  }
+}

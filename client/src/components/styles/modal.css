@@ -1,0 +1,56 @@
+.is-hide {
+  opacity: 1!important;
+  visibility: visible!important;  
+}
+
+.button-close {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAAowAAAKMB8MeazgAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAB5SURBVDiNrZPRCcAwCEQfnUiySAZuF8kSWeH6Yz8KrQZMQAicJ+epAB0YwAmYJKIADLic0/GPPCbQAnLznCd/4NWUFfkgy1VjH8CryA95ApYltAiTRCZxpuoW+gz9WXE6NPeg+ra1UDIxGlWEObe4SGxY5fIxlc75Bkt9V4JS7KWJAAAAAElFTkSuQmCC59ef34356faa7edebc7ed5432ddb673d");
+  z-index: 2;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  visibility: hidden;
+  transition: all ease-in .2s;
+  z-index: 2;
+}
+
+.overlay.is-hide .modal-content {
+  margin: 7% auto 0;
+}
+
+.overlay .modal-content {
+  margin: 10% auto 0;
+}
+
+.modal-content {
+  padding: 5px 20px 10px 20px;
+  width: 400px;
+  position: relative;
+  margin: 10% auto 0;
+  background: #fff;
+  transition: all ease-in .2s;
+}
+
+.modal-content.big {
+  width: 900px;
+  z-index: 2;
+  padding: 0;
+}
+
+.modal-content.big .button-close {
+  right: 50px;
+}

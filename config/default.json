@@ -1,0 +1,5 @@
+{
+  "Secret-Key": "MAKETHISSECRETKEY",
+  "URL-Photos": "http://localhost:5500/gallery",
+  "URL-Users": "http://localhost:5500/users"
+}
